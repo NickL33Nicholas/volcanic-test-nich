@@ -1,0 +1,161 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Header  */
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .nav-link {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text-custom {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .navbar-collapse {
+    margin-right: 150px;
+  }
+}
+
+/* Section 1  */
+
+/* Section 2  */
+
+@media only screen and (max-width: 768px) {
+  .section-2-p {
+    font-size: 12px;
+  }
+
+  .read-more {
+    padding: 25px;
+  }
+}
+
+/* Section 3  */
+
+@media only screen and (max-width: 768px) {
+  .testi-p {
+    font-size: 12px;
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .avatar-h4 {
+    padding-left: 11px !important;
+    color: var(--mainorange);
+  }
+
+  .left-card {
+    height: 350px;
+  }
+
+  .work-for-us-row {
+    padding: 0 !important;
+  }
+}
+
+/* Section 4  */
+
+@media only screen and (max-width: 768px) {
+  .section-4 {
+    padding-bottom: 0;
+  }
+
+  .insight-pic {
+    width: 100%;
+    height: 102%;
+    display: block;
+    padding: 20px;
+  }
+
+  .overlay {
+    width: 95%;
+    height: 100%;
+  }
+
+  .over-title {
+    font-size: 10px;
+  }
+
+  .over-desc {
+    font-size: 10px;
+  }
+
+  .overlay > * {
+    transform: translateY(30px);
+    transition: transform 0.25s;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .overlay {
+    width: 100%;
+    height: 100%;
+  }
+
+  .insight-pic {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 15px;
+  }
+}
+
+/* Footer  */
+
+@media only screen and (max-width: 768px) {
+  .social-icon {
+    padding: 0px;
+    margin-left: auto;
+    padding-left: 24px;
+  }
+
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-icon {
+    font-size: 30px;
+  }
+  .contact-us {
+    font-size: 10px;
+    padding-top: 30px;
+  }
+
+  .contact-us-h3 {
+    font-size: 20px;
+  }
+
+  .vl {
+    border-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .vl {
+    bottom: -2928px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .vl {
+    bottom: -2575px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .vl {
+    bottom: -2500px;
+  }
+}
