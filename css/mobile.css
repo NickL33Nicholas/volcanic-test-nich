@@ -140,6 +140,10 @@ body {
   .vl {
     border-left: 0;
   }
+
+  .map-icon {
+    padding-left: 12px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
