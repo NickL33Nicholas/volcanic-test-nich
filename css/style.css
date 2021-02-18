@@ -98,7 +98,7 @@ header {
 
 /* Landing */
 
-.testing {
+.talent-slider {
   background-color: #202020b7;
 }
 
@@ -317,6 +317,11 @@ footer {
   justify-content: center;
   align-content: center;
   padding-top: 25px;
+}
+
+.row-get-social {
+  flex-wrap: unset;
+  padding-right: 200px;
 }
 
 .social-icon {
