@@ -1,7 +1,6 @@
 html,
 body {
   overflow-x: hidden;
-  /* overflow-y: hidden; */
 }
 
 /* Header  */
@@ -49,7 +48,6 @@ body {
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
   .navbar-nav {
     font-size: 12px;
-    /* margin-right: 260px; */
   }
   .navbar-expand-lg .navbar-collapse {
     margin-right: 260px;
